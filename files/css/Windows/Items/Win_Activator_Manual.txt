@@ -1,0 +1,6 @@
+
+slmgr /ipk "Put your Windows KMS Key here"
+
+slmgr /skms kms9.msguides.com
+
+slmgr /ato

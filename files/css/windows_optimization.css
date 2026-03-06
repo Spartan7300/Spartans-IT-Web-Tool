@@ -1,0 +1,140 @@
+
+ .main-title {
+  width: 100%;
+  position: fixed, center;
+  top: 0;
+  color: white;
+  background: rgba(0, 0, 0, 0.9);
+  padding: 15px;
+  margin: 0px auto; 
+  border-radius: 0px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  text-align: center;
+ }
+
+ body {
+  background-image: url("Design/windows_optimizations.webp");
+  background-size: cover;        /* Fill entire screen */
+  background-position: center;   /* Center the image */
+  background-repeat: no-repeat;  /* Prevent tiling */
+  background-attachment: fixed;
+
+  min-height: 100vh;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+ }
+
+
+
+ .chris_titus {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 15px;
+  margin: 50px auto; 
+  margin-top: 150px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  text-align: center;
+ }
+
+ .chris_titus button {
+  background: linear-gradient(to bottom, #0a84ff 0%, #0066ff 100%);
+  color: #ffffff;
+  padding: 6px 18px;
+  border: none;
+  border-radius: 9999px;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  box-shadow: 
+    0 1px 2px rgba(0, 0, 0, 0.15),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.2);
+ }
+
+ .chris_titus button:hover {
+  filter: brightness(1.08);
+ }
+
+ .UXTU {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 15px;
+  margin: 50px auto; 
+  margin-top: 0px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  text-align: center;
+ }
+
+ .UXTU button {
+  background: linear-gradient(to bottom, #0a84ff 0%, #0066ff 100%);
+  color: #ffffff;
+  padding: 6px 18px;
+  border: none;
+  border-radius: 9999px;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  box-shadow: 
+    0 1px 2px rgba(0, 0, 0, 0.15),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.2);
+ }
+
+ .UXTU button:hover {
+  filter: brightness(1.08);
+ }
+
+ .win_debloat {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 15px;
+  margin: 50px auto; 
+  margin-top: 0px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  text-align: center;
+ }
+
+ .win_debloat button {
+  background: linear-gradient(to bottom, #0a84ff 0%, #0066ff 100%);
+  color: #ffffff;
+  padding: 6px 18px;
+  border: none;
+  border-radius: 9999px;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  box-shadow: 
+    0 1px 2px rgba(0, 0, 0, 0.15),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.2);
+ }
+
+ .win_debloat button:hover {
+  filter: brightness(1.08);
+ }
+
+ footer {
+  width: 100%;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  margin: 0px auto; 
+  border-radius: 0px;
+  text-align: center;
+  margin-top: 150px;
+ }
+
+
