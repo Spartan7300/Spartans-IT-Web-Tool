@@ -60,9 +60,23 @@ XOS is a Community made stripped down version of Win10 that is designed for gami
 <br>
 and gives control to the user (Just be smart, there is no Windows Defender)
 <br>
-<button onclick="window.location.href='https://archive.org/download/xos-win-10-v-0008/XOS-Win10-V0008.iso'">
-    Windows 10 XOS x64 Download
-</button>  
+    
+<button onclick="downloadXOS()">Windows 10 XOS x64 Download</button>
+
+<script>
+function downloadXOS() {
+    const url = "https://archive.org/download/xos-win-10-v-0008/XOS-Win10-V0008.iso";
+    const fileName = "XOS-Win10-V0008.iso"; // Suggested filename
+
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = fileName;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+}
+</script>
+    
 <br>
 <br>
 <img src="css/Windows/Images/Win10_XOS_Web.jpg" class="responsive" alt="4K Windows XOS 'Modern' Wallpaper">
