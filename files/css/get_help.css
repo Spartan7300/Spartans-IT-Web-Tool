@@ -1,3 +1,17 @@
+ .Get_Help_Title {
+  width: 100%;
+  top: 0;
+  color: white;
+  background: rgba(0, 0, 0, 0.9);
+  padding: 15px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin: 0px;
+  border-radius: 0px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  text-align: center;;
+}
+
 body {
   background-image: url("Design/get_help.webp");
   background-size: cover;        /* Fill entire screen */
@@ -59,19 +73,6 @@ nav {
 
 .main-text h4 {
   margin-top: 0;
-}
-
- .Get_Help_Title {
-  width: 100%;
-  position: fixed, center;
-  top: 0;
-  color: white;
-  background: rgba(0, 0, 0, 0.9);
-  padding: 15px;
-  margin: 0px auto;
-  border-radius: 0px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
-  text-align: center;;
 }
 
  .Get_Rust_Desk{
