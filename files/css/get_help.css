@@ -1,0 +1,111 @@
+
+body {
+  background-image: url("Design/get_help.webp");
+  background-size: cover;        /* Fill entire screen */
+  background-position: center;   /* Center the image */
+  background-repeat: no-repeat;  /* Prevent tiling */
+  background-attachment: fixed;
+
+  min-height: 100vh;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+nav {
+  display: flex;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+ nav button {
+  flex: 1;                 
+  padding: 10px 0;       
+  font-size: 18px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 120%;
+ }
+
+ nav button:hover {
+  background: radial-gradient(circle, rgba(0,0,0,0) -30%, rgba(0,0,0,0.5) 100%);
+  text-shadow: 1px 1px 3px rgba(0,0,0,1);
+ }
+
+
+
+ footer {
+  width: 100%;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  margin: 0px auto; 
+  border-radius: 0px;
+  text-align: center;
+  margin-top: 150px;
+}
+
+
+.main-text {
+  background: #000000;
+  color: white;
+  padding: 15px;
+  margin: 50px auto; 
+  margin-top: 150px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  text-align: center;
+}
+
+.main-text h4 {
+  margin-top: 0;
+}
+
+
+ .Get_Help_Title {
+  width: 100%;
+  position: fixed, center;
+  top: 0;
+  color: white;
+  background: rgba(0, 0, 0, 0.9);
+  padding: 15px;
+  margin: 0px auto;
+  border-radius: 0px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  text-align: center;;
+}
+
+ .Get_Rust_Desk{
+   width: 60%;
+   background: #000000;
+   padding: 8px;
+   margin: 50px auto; 
+   margin-top: 25px; 
+   border-radius: 15px;
+   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+   max-width: 600px;
+   text-align: center;
+}
+
+.Get_Rust_Desk img{
+   width: 99%;
+   padding: 0px; 
+   margin-top: 25px; 
+   border-radius: 15px;
+   text-align: center;
+}
+
+ .Get_Rust_Desk button {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white; 
+  width: 100%;
+
+
+}
+
