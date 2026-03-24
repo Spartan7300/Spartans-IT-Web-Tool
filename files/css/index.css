@@ -60,43 +60,6 @@ nav button:hover {
   text-align: center;
 }
 
-
-
- .main-embedded {
-  width: 100%;
-  background: rgba(0, 0, 0, 0.75);
-  color: white;
-  padding: 15px; 
-  border-radius: 15px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-  max-width: 600px;
-  margin: 50px auto;
-  margin-top: 50px;
-  text-align: center;
-}
-
-.main-embedded button {
-  background: linear-gradient(to bottom, #0a84ff 0%, #0066ff 100%);
-  color: #ffffff;
-  padding: 6px 18px;
-  border: none;
-  border-radius: 9999px;
-  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif;
-  font-size: 13px;
-  font-weight: 500;
-  cursor: pointer;
-  transition: all 0.15s ease;
-  box-shadow: 
-    0 1px 2px rgba(0, 0, 0, 0.15),
-    inset 0 -1px 0 rgba(255, 255, 255, 0.2);
-}
-
-.main-embedded button:hover {
-  filter: brightness(1.08);
-}
-
-
-
 .AboutMe {
   width: 100%;
   background: rgba(0, 0, 0, 0.75);
