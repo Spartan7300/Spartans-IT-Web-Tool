@@ -75,13 +75,6 @@ nav button:hover {
   text-align: center;
 }
 
-.GetHelp button {
-  background-color: rgba(0, 0, 0, 0.5);
-  color: red; 
-  width: 100%;
-  margin-top: 150px;
-}
-
  footer {
   width: 100%;
   color: white;
