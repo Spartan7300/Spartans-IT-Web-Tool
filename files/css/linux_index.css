@@ -13,10 +13,10 @@
 }
 
 body {
-  background-image: url("Design/get_help.webp");
-  background-size: cover;        /* Fill entire screen */
-  background-position: center;   /* Center the image */
-  background-repeat: no-repeat;  /* Prevent tiling */
+  background-image: url("Design/linux.webp");
+  background-size: cover;     
+  background-position: center;  
+  background-repeat: no-repeat; 
   background-attachment: fixed;
 
   min-height: 100vh;
