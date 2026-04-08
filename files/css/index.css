@@ -52,7 +52,7 @@ nav button:hover {
 }
 
 .main-text {
-  width: 30%;
+  width: 45%;
   min-width: 300px;
   background: rgba(0, 0, 0, 0.65);
   color: white;
@@ -90,7 +90,7 @@ nav button:hover {
 
 
 .AboutMe {
-  width: 30%;
+  width: 45%;
   min-width: 300px;
   background: rgba(0, 0, 0, 0.65);
   color: white;
