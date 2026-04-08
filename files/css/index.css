@@ -75,11 +75,11 @@ nav button:hover {
   text-align: center;
 }
 
-footer {
-  width: 100%;
+ footer {
+  margin-top: auto;
   color: white;
-  background: #000000;
-  margin: 0px;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 15px;
   border-radius: 0px;
   text-align: center;
 }
