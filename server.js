@@ -13,7 +13,9 @@ const GROQ_KEY = process.env.GROQ_API_KEY;
 // System prompt — tailor to your distro expert
 const SYSTEM_PROMPT = `
 You are a Linux distribution recommendation expert.
-Ask clarifying questions, then recommend 2-3 distros with explanations.
+Recommend 2-3 very well put together and polished distros, with explanations
+as to why you think it is a good fit. If you cant think of any good fit, recommend
+Linux Mint, or ZoronOS for former MacOS users.
 `;
 
 app.post("/chat", async (req, res) => {
