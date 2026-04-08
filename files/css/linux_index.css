@@ -75,4 +75,14 @@ nav {
   margin-top: 0;
 }
 
- 
+.swap_help {
+  background: #000000;
+  color: white;
+  padding: 15px;
+  margin: 50px auto; 
+  margin-top: 150px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  text-align: center;
+}
