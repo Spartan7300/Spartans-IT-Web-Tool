@@ -92,6 +92,7 @@ nav {
 
 /* Chat Styles */
 #chat-container {
+  height: 400px;
   background: #000000;
   color: white;
   padding: 15px;
