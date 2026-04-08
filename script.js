@@ -5,7 +5,7 @@ async function send() {
 
   addMessage("You: " + message, "user");
 
-  const res = await fetch("https://spartans-it-web-tool.onrender.com/chat", {
+  const res = await fetch("https://spartans-it-web-tool-1.onrender.com/chat", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
